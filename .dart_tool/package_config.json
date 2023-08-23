@@ -3,9 +3,9 @@
   "packages": [
     {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/guillaume/.pub-cache/hosted/pub.dev/flutter_lints-2.0.1",
+      "rootUri": "file:///Users/guillaume/.pub-cache/hosted/pub.dev/flutter_lints-2.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "lints",
@@ -20,7 +20,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-31T13:27:39.937822Z",
+  "generated": "2023-08-23T09:21:14.179559Z",
   "generator": "pub",
-  "generatorVersion": "3.0.2"
+  "generatorVersion": "3.1.0"
 }
