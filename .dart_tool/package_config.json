@@ -17,10 +17,10 @@
       "name": "extreme_flutter_lints",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-22T13:46:59.057969Z",
+  "generated": "2023-11-22T14:41:07.448631Z",
   "generator": "pub",
   "generatorVersion": "3.2.0"
 }
