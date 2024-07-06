@@ -1,13 +1,13 @@
-name: extreme_flutter_lints
+name: lm_labs_flutter_lints
 description: LM Labs recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.
-repository: https://github.com/glemartret/extreme_flutter_lints
-issue_tracker: https://github.com/glemartret/extreme_flutter_lints/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
-version: 0.0.3
+repository: https://github.com/glemartret/lm_labs_flutter_lints
+issue_tracker: https://github.com/glemartret/lm_labs_flutter_lints/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+version: 0.1.0
 
 environment:
-  sdk: ">=3.1.0 <4.0.0"
-  flutter: ">=3.13.0"
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
 
 dependencies:
-  flutter_lints: ^3.0.1
+  flutter_lints: ^4.0.0
   # Code is not allowed in this package. Do not add any dependencies or dev_dependencies.
