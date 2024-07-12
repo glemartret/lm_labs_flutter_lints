@@ -12,5 +12,7 @@ updates:
     groups:
       minor-patch:
         update-types:
-        - "minor"
-        - "patch"
+          - "minor"
+          - "patch"
+    assignees:
+      - "glemartret"
