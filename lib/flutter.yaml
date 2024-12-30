@@ -25,7 +25,6 @@ linter:
     # - avoid_init_to_null # FROM lints/recommended
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
-    # - avoid_null_checks_in_equality_operators # FROM lints/recommended
     - avoid_positional_boolean_parameters
     # - avoid_print # FROM flutter_lints/flutter
     - avoid_private_typedef_functions
@@ -117,10 +116,7 @@ linter:
     - prefer_asserts_with_message
     # - prefer_collection_literals # FROM lints/recommended
     # - prefer_conditional_assignment # FROM lints/recommended
-    # - prefer_const_constructors # FROM flutter_lints/flutter
     # - prefer_const_constructors_in_immutables # FROM flutter_lints/flutter
-    # - prefer_const_declarations # FROM flutter_lints/flutter
-    # - prefer_const_literals_to_create_immutables # FROM flutter_lints/flutter
     - prefer_constructors_over_static_methods
     # - prefer_contains # FROM lints/recommended
     # - prefer_double_quotes
