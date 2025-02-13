@@ -2,6 +2,11 @@
 
 All notable changes to the `lm_labs_flutter_lints` package will be documented in this file.
 
+## [0.3.0] - Flutter update
+- Disable require_trailing_commas rule
+- Flutter/Dart upgrade
+- Deps upgrade
+
 ## [0.2.1] - Flutter lints update
 - Deps upgrade
 
