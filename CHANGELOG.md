@@ -2,6 +2,12 @@
 
 All notable changes to the `lm_labs_flutter_lints` package will be documented in this file.
 
+## [1.0.0] - Stable Release
+- Updated to flutter_lints ^6.0.0
+- Added comprehensive README documentation
+- Added build.yaml template reference
+- Fixed dependency version constraint
+
 ## [0.4.0] - Flutter update
 - Re-Enable require_trailing_commas rule
 - Flutter/Dart upgrade
