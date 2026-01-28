@@ -1,0 +1,41 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          fallback_union: default
+        generate_for:
+          include:
+            - "lib/src/features/**/domain/**.dart"
+
+      json_serializable:
+        options:
+          explicit_to_json: true
+        generate_for:
+          include:
+            - "lib/src/features/**/domain/**.dart"
+
+      riverpod_generator:
+        generate_for:
+          include:
+            - "lib/src/features/**/application/**.dart"
+            - "lib/src/features/**/data/**.dart"
+            - "lib/src/routing/**.dart"
+            - "lib/*.dart"
+
+      go_router_builder:
+        generate_for:
+          include:
+            - "lib/src/features/**/presentation/**.dart"
+            - "lib/src/routing/**.dart"
+
+      lm_labs_generator|routes:
+        generate_for:
+          include:
+            - "lib/src/features/*/presentation/**.routes.dart"
+
+      drift_dev:
+        options:
+          databases:
+            app_database: lib/src/features/database/application/app_database.dart
+          schema_dir: lib/src/features/database/application/tables

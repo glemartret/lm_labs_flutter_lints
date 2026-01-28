@@ -2,12 +2,12 @@ name: lm_labs_flutter_lints
 description: LM Labs recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.
 repository: https://github.com/glemartret/lm_labs_flutter_lints
 issue_tracker: https://github.com/glemartret/lm_labs_flutter_lints/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
-version: 0.4.0
+version: 1.0.0
 
 environment:
-  flutter: ">=3.32.0"
-  sdk: ">=3.8.0 <4.0.0"
+  sdk: ^3.10.7
+  flutter: ">=3.38.8"
 
 dependencies:
-  flutter_lints: ">=6.0.0 <7.0.0"
+  flutter_lints: any
   # Code is not allowed in this package. Do not add any dependencies or dev_dependencies.

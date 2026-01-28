@@ -221,3 +221,13 @@ linter:
     # - iterable_contains_unrelated_type # FROM lints/core BUT DEPRECATED
     # - list_remove_unrelated_type # FROM lints/core BUT DEPRECATED
     # - prefer_equal_for_default_values # FROM lints/recommended BUT REMOVED
+
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - "**.freezed.dart"
+    - "**.g.dart"
+  errors:
+    # For json_serializable
+    invalid_annotation_target: ignore
