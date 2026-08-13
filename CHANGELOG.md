@@ -2,6 +2,10 @@
 
 All notable changes to the `lm_labs_flutter_lints` package will be documented in this file.
 
+## [1.1.0] - Constraints Update
+- Updated compatibility to Dart `>=3.13.0 <4.0.0` and Flutter `>=3.47.0`
+
+
 ## [1.0.0] - Stable Release
 - Updated to flutter_lints ^6.0.0
 - Added comprehensive README documentation
