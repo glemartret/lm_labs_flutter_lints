@@ -21,7 +21,6 @@ targets:
             - "lib/src/features/**/application/**.dart"
             - "lib/src/features/**/data/**.dart"
             - "lib/src/routing/**.dart"
-            - "lib/*.dart"
 
       go_router_builder:
         generate_for:

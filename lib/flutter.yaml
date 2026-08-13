@@ -129,7 +129,7 @@ linter:
     - prefer_final_locals
     # - prefer_final_parameters
     # - prefer_for_elements_to_map_fromIterable # FROM lints/recommended
-# - prefer_foreach
+    # - prefer_foreach
     # - prefer_function_declarations_over_variables # FROM lints/recommended
     # - prefer_generic_function_type_aliases # FROM lints/core
     - prefer_if_elements_to_conditional_expressions
@@ -151,7 +151,7 @@ linter:
     # - prefer_typing_uninitialized_variables # FROM lints/core
     # - prefer_void_to_null # FROM lints/recommended
     # - provide_deprecation_message # FROM lints/core
-# - public_member_api_docs
+    # - public_member_api_docs
     # - recursive_getters # FROM lints/recommended
     - require_trailing_commas
     - secure_pubspec_urls
@@ -159,7 +159,7 @@ linter:
     - sized_box_shrink_expand
     # - slash_for_doc_comments # FROM lints/recommended
     # - sort_child_properties_last # FROM flutter_lints/flutter
-# - sort_constructors_first
+    # - sort_constructors_first
     - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - test_types_in_equals
@@ -223,9 +223,14 @@ linter:
     # - prefer_equal_for_default_values # FROM lints/recommended BUT REMOVED
 
 analyzer:
-  plugins:
-    - custom_lint
   exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
     - "**.freezed.dart"
     - "**.g.dart"
   errors:
